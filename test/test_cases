@@ -1,0 +1,27 @@
+//the following was used to produce the images in the test directory
+
+  RegionGrower r;
+
+  //set the background: orange
+  r.SetSeed(0,0);
+  r.SetReplacement({232, 117, 17, 255});
+  r.SetImage(std::string("hokie.png"));
+  r.GetOutput(std::string("hokie_bg.png"));
+
+  //set the chest: maroon
+  r.SetSeed(350,350);
+  r.SetReplacement({142, 35, 68, 255});
+  r.SetImage(std::string("hokie_bg.png"));
+  r.GetOutput(std::string("hokie_chest.png"));
+
+  //set the legs: maroon
+  r.SetSeed(350,450);
+  r.SetReplacement({142, 35, 68, 255});
+  r.SetImage(std::string("hokie_chest.png"));
+  r.GetOutput(std::string("hokie_legs.png"));
+
+  //set the head:  maroon
+  r.SetSeed(125,315);
+  r.SetReplacement({142, 35, 68, 255});
+  r.SetImage(std::string("hokie_legs.png"));
+  r.GetOutput(std::string("hokie_cool.png"));

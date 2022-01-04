@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Virginia Tech\FALL2021\Data Structures\Project Source Codes\P3_2-1\P3_2-1\compare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Virginia Tech\FALL2021\Data Structures\Project Source Codes\P3_2-1\P3_2-1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D48A9763-8143-3383-9B74-E2F47C83AB1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
